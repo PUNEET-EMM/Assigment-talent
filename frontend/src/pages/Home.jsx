@@ -1,9 +1,9 @@
 // Home.jsx
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import TalentForm from "./components/TalentForm.jsx";
-import SkillFilter from "./components/SkillFilter.jsx";
-import TalentList from "./components/TalentList.jsx";
+import TalentForm from "../components/TalentForm.jsx";
+import SkillFilter from "../components/SkillFilter.jsx";
+import TalentList from "../components/TalentList.jsx";
 import { fetchTalents } from "../store/talentsSlice.js";
 
 const Home = () => {

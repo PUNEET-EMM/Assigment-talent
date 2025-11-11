@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { setSkillFilter, fetchTalents } from "../../store/talentsSlice.js";
+import { setSkillFilter, fetchTalents } from "../store/talentsSlice.js";
 
 const SkillFilter = () => {
   const dispatch = useDispatch();
